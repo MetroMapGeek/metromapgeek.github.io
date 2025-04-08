@@ -682,39 +682,26 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-GmpCEYR4wu {
-  background-color: #242930;
+.cid-wlOcy0wDIp {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
 }
-.cid-GmpCEYR4wu .show {
-  visibility: visible;
+.cid-wlOcy0wDIp .mbr-section-title {
+  text-align: center;
 }
-.cid-GmpCEYR4wu .hide {
-  visibility: hidden;
+.cid-wlOcy0wDIp .frame {
+  min-height: 1000px;
 }
-.cid-uHNcP8Evay {
-  background-image: url("../../../assets/images/background11.jpg");
-}
-.cid-uHNcP8Evay .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-uHNcP8Evay .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-#custom-html-l {
+#custom-html-m {
   /* Type valid CSS here */
 }
-#custom-html-l div {
+#custom-html-m div {
   padding: 80px 0;
   color: #777;
   text-align: center;
 }
-#custom-html-l p {
+#custom-html-m p {
   font-size: 60px;
   color: #777;
 }

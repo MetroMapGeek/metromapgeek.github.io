@@ -1,0 +1,1738 @@
+{
+  "settings": {
+    "name": "MetroMaps.org FULL i-FRAME",
+    "currentPage": "nyc-vingelli.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#bbbbbb",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Rethink Sans",
+        "display1Size": 4.6,
+        "display2Font": "Rethink Sans",
+        "display2Size": 3,
+        "display5Font": "Rethink Sans",
+        "display5Size": 2,
+        "display7Font": "Rethink Sans",
+        "display7Size": 1.2,
+        "display4Font": "Rethink Sans",
+        "display4Size": ".9",
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#fd0c0c",
+        "#b30e0e",
+        "#2f2f2f",
+        "#323232",
+        "#5d5d5d"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "6.0.1",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Rethink Sans', sans-serif",
+        "name": "Rethink Sans",
+        "url": "https://fonts.googleapis.com/css?family=Rethink+Sans:400,500,600,700,800,400i,500i,600i,700i,800i"
+      }
+    ],
+    "dppsSwitcher": true,
+    "spellingSwitch": false,
+    "site_lang": "en",
+    "favicon": "@PROJECT_PATH@/assets/images/metro-maps-favicon-02.png",
+    "mbrsiteDomain": "evrflipgfh",
+    "imageResize": false,
+    "usedWebp": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "witsec-jquery": false,
+    "pwa-switcher": false,
+    "uniqCompNum": 72,
+    "versionPublish": "6.0.1",
+    "screenshot": "screenshot.png",
+    "mcSmartCart": {
+      "currency": "USD"
+    }
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "MetroMaps.org",
+        "meta_descr": "The Internet's Atlas of Transit Maps",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n   <iframe src=\"https://umap.openstreetmap.fr/en/map/metromapsorg_1203972#2/0.0/-35.0\" style=\"position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;\">\n    Your browser doesn't support iframes\n</iframe>\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "custom-html-r",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        }
+      ]
+    },
+    "nyc-vingelli.html": {
+      "settings": {
+        "main": false,
+        "title": "New York: 2025 Vingelli Subway Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "37"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/YOa630j.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-1z"
+        }
+      ]
+    },
+    "map-viewer.html": {
+      "settings": {
+        "title": "Map Viewer Page",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "1"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/IuSL2VA.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwa8uWN4m",
+          "_anchor": "image04-v",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "madrid.html": {
+      "settings": {
+        "title": "Madrid Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "33"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/kbbNleo.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwnQYhpQ3",
+          "_anchor": "image04-w",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "venice-regional.html": {
+      "settings": {
+        "title": "Venice: Regional Transit Diagram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "41"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/iOXI3BX.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwpp7XfKF",
+          "_anchor": "image04-y",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "venice-waterborne.html": {
+      "settings": {
+        "title": "Venice: Vaporetti Transit Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "40"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/NKKPvIX.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwpBVKH1V",
+          "_anchor": "image04-z",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "milan-ditsek.html": {
+      "settings": {
+        "title": "Milan Diagram by Theo Ditsek",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "36"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/6mdC6ST.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwpTnKOSj",
+          "_anchor": "image04-10",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "milan-metro.html": {
+      "settings": {
+        "title": "Milan Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "35"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/T5SqmNN.jpg\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwqAkVZT1",
+          "_anchor": "image04-11",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "roma-tram.html": {
+      "settings": {
+        "title": "Roma: Tram Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "39"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/SFE2xsu.jpg\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwqSF5vU8",
+          "_anchor": "image04-12",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "roma-metro.html": {
+      "settings": {
+        "title": "Roma: Metro &amp; Regional Trains",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "38"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/9RkiRLH.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwrfqVYab",
+          "_anchor": "image04-13",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "durban-rail.html": {
+      "settings": {
+        "title": "Durban Commuter Rail Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "32"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/CHoE6FZ.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwrtnZ2Tm",
+          "_anchor": "image04-14",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "cape-town.html": {
+      "settings": {
+        "title": "Cape Town Rail Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "31"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/6JDWSzR.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwscgL71f",
+          "_anchor": "image04-15",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "madrid-turistico.html": {
+      "settings": {
+        "title": "Madrid Turistico Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "34"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/Q1czd6p.jpg\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwoZiWdl6",
+          "_anchor": "image04-x",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "casablanca.html": {
+      "settings": {
+        "title": "Casablanca Transit Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "29"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/YPN5tpe.jpg\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwJYKLmTx",
+          "_anchor": "image04-16",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "casablanca-2.html": {
+      "settings": {
+        "title": "Casablanca Transit Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "30"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/fq1s9x5.jpg\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwKyibZff",
+          "_anchor": "image04-17",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "cairo.html": {
+      "settings": {
+        "title": "Cairo Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "28"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/fGx1LQ2.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwLkQFDCQ",
+          "_anchor": "image04-18",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "sapporo-streetcar.html": {
+      "settings": {
+        "title": "Sapporo Streetcar",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "27"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/OSEOo1F.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwLyrYGMi",
+          "_anchor": "image04-19",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "sapporo-subway.html": {
+      "settings": {
+        "title": "Sapporo Subway",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "26"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/IuSL2VA.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwLZgXj5M",
+          "_anchor": "image04-1a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "mumbai-kk.html": {
+      "settings": {
+        "title": "Mumbai Metro by Kishore Khaware",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "23"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/t7Dypsz.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwOLsMhci",
+          "_anchor": "image04-1f",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "mumbai-mrane.html": {
+      "settings": {
+        "title": "Mumbai Transit Map by MRane.com",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "22"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/v8FNfql.jpg\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwOAIYpbk",
+          "_anchor": "image04-1e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "mumbai-locals.html": {
+      "settings": {
+        "title": "Mumbai Locals Transit Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "21"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/GrSxtwx.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwOvKh7lX",
+          "_anchor": "image04-1d",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "beijing.html": {
+      "settings": {
+        "title": "Beijing Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "20"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/ngEWCjI.jpg\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwPlbT1os",
+          "_anchor": "image04-1g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "bangkok.html": {
+      "settings": {
+        "title": "Bangkok Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "19"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/2yefq94.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwPBnNpie",
+          "_anchor": "image04-1h",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "shanghai.html": {
+      "settings": {
+        "title": "Shanghai Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "18"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/mVlx2cH.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwPO17pK2",
+          "_anchor": "image04-1i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "hong-kong.html": {
+      "settings": {
+        "title": "Hong Kong Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "17"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/Xj9GvJf.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwQ0oRz9T",
+          "_anchor": "image04-1j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "seoul.html": {
+      "settings": {
+        "title": "Seoul Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "16"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/DpxcxhM.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwQ9NT9H3",
+          "_anchor": "image04-1k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "osaka.html": {
+      "settings": {
+        "title": "Osaka Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "15"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/LJNz0WT.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwQnNT0QF",
+          "_anchor": "image04-1l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "tokyo-regional.html": {
+      "settings": {
+        "title": "Tokyo Regional Rail Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "14"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/9iqX4EB.jpg\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwQxKzcdm",
+          "_anchor": "image04-1m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "tokyo-metro.html": {
+      "settings": {
+        "title": "Tokyo Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "13"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/U20VhYZ.jpg\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwQGqubuE",
+          "_anchor": "image04-1n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "wellington-transit.html": {
+      "settings": {
+        "title": "Wellington Metro Transit",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "12"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/PXFSB7C.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwQVDy3fd",
+          "_anchor": "image04-1o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "wellington-diagram.html": {
+      "settings": {
+        "title": "Wellington Regional Transit Diagram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "11"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/gRmlQHW.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwR53WJh1",
+          "_anchor": "image04-1p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "auckland-ferry.html": {
+      "settings": {
+        "title": "Auckland Ferry Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "10"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/oJOOJVL.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwReAYS1Z",
+          "_anchor": "image04-1q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "auckland-transit.html": {
+      "settings": {
+        "title": "Auckland Transit",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "9"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/vE4nfIW.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwRn32aar",
+          "_anchor": "image04-1r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "perth.html": {
+      "settings": {
+        "title": "Perth System Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "8"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/MjyJj7q.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwRxEwwOA",
+          "_anchor": "image04-1s",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "sydney-ferries.html": {
+      "settings": {
+        "title": "Sydney Ferries Network",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "5"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/EabVD1q.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwRWD1RnF",
+          "_anchor": "image04-1v",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "brisbane-rail.html": {
+      "settings": {
+        "title": "Brisbane Rail Network",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "6"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/oC2SLAx.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwRPoErpK",
+          "_anchor": "image04-1u",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "brisbane-ferry.html": {
+      "settings": {
+        "title": "Brisbane Ferry Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "7"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/QZyLacf.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwRICjZlU",
+          "_anchor": "image04-1t",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "sydney-rail.html": {
+      "settings": {
+        "title": "Sydney Rail Network",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "2"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/MlbwjSS.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwSsIIrmC",
+          "_anchor": "image04-1y",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "melbourne-rail.html": {
+      "settings": {
+        "title": "Melbourne Rail Network Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "3"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/rKFFfqI.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwSmqyrjn",
+          "_anchor": "image04-1x",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "melbourne-tram.html": {
+      "settings": {
+        "title": "Melbourne Tram Network",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "4"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/NCdTIZJ.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwSd4ymjW",
+          "_anchor": "image04-1w",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "delhi-metro-diagram.html": {
+      "settings": {
+        "title": "Delhi Metro Diagram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "24"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/3ri2tti.png\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwMuUb4q2",
+          "_anchor": "image04-1c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "delhi-metro-network.html": {
+      "settings": {
+        "title": "Delhi Metro Network",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "25"
+      },
+      "components": [
+        {
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            },
+            "body": {
+              "background-color": "black"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/HtY0InR.jpg\"\n    }\n});\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "uKwMbM9L7N",
+          "_anchor": "image04-1b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}

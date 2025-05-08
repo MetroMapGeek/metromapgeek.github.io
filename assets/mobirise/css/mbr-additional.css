@@ -694,17 +694,12 @@ a {
   font-size: 60px;
   color: #777;
 }
-.cid-uKtyE2pUqV {
-  background-color: #000000;
-  padding-top: 0px;
-  padding-bottom: 0px;
+#custom-html-1z {
+  /* Type valid CSS here */
 }
-.cid-uKtyE2pUqV img {
-  object-fit: contain;
-  border-radius: 0 !important;
-}
-.cid-uKtyE2pUqV body {
-  background-color: black;
+#custom-html-1z #openseadragon {
+  width: 100vw;
+  height: 100vh;
 }
 .cid-uKwa8uWN4m {
   background-color: #000000;

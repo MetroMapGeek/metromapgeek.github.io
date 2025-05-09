@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "MetroMaps.org FULL i-FRAME",
-    "currentPage": "nyc-vingelli.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -68,7 +68,7 @@
     "gdpr": false,
     "witsec-jquery": false,
     "pwa-switcher": false,
-    "uniqCompNum": 72,
+    "uniqCompNum": 77,
     "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
@@ -145,32 +145,22 @@
       },
       "components": [
         {
-          "_name": "image04",
-          "_sourceTheme": "startm5",
-          "_styles": {
-            "background-color": "@bgColor",
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "img": {
-              "object-fit": "contain",
-              "border-radius": "0 !important"
-            },
-            "body": {
-              "background-color": "black"
-            }
-          },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
           "_JSplaceholders": [
-            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/IuSL2VA.png\"\n    }\n});\n    \n</script>"
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
           ],
           "_PHPplaceholders": [],
-          "_isUserblock": true,
-          "_cid": "uKwa8uWN4m",
-          "_anchor": "image04-v",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "custom-html-20"
         }
       ]
     },
@@ -185,32 +175,22 @@
       },
       "components": [
         {
-          "_name": "image04",
-          "_sourceTheme": "startm5",
-          "_styles": {
-            "background-color": "@bgColor",
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "img": {
-              "object-fit": "contain",
-              "border-radius": "0 !important"
-            },
-            "body": {
-              "background-color": "black"
-            }
-          },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
           "_JSplaceholders": [
-            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/kbbNleo.png\"\n    }\n});\n    \n</script>"
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/kbbNleo.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
           ],
           "_PHPplaceholders": [],
-          "_isUserblock": true,
-          "_cid": "uKwnQYhpQ3",
-          "_anchor": "image04-w",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "custom-html-23"
         }
       ]
     },
@@ -225,32 +205,22 @@
       },
       "components": [
         {
-          "_name": "image04",
-          "_sourceTheme": "startm5",
-          "_styles": {
-            "background-color": "@bgColor",
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "img": {
-              "object-fit": "contain",
-              "border-radius": "0 !important"
-            },
-            "body": {
-              "background-color": "black"
-            }
-          },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
           "_JSplaceholders": [
-            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/iOXI3BX.png\"\n    }\n});\n    \n</script>"
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/iOXI3BX.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
           ],
           "_PHPplaceholders": [],
-          "_isUserblock": true,
-          "_cid": "uKwpp7XfKF",
-          "_anchor": "image04-y",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "custom-html-21"
         }
       ]
     },
@@ -265,32 +235,22 @@
       },
       "components": [
         {
-          "_name": "image04",
-          "_sourceTheme": "startm5",
-          "_styles": {
-            "background-color": "@bgColor",
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "img": {
-              "object-fit": "contain",
-              "border-radius": "0 !important"
-            },
-            "body": {
-              "background-color": "black"
-            }
-          },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
           "_JSplaceholders": [
-            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/NKKPvIX.png\"\n    }\n});\n    \n</script>"
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/NKKPvIX.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
           ],
           "_PHPplaceholders": [],
-          "_isUserblock": true,
-          "_cid": "uKwpBVKH1V",
-          "_anchor": "image04-z",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "custom-html-22"
         }
       ]
     },
@@ -545,32 +505,22 @@
       },
       "components": [
         {
-          "_name": "image04",
-          "_sourceTheme": "startm5",
-          "_styles": {
-            "background-color": "@bgColor",
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "img": {
-              "object-fit": "contain",
-              "border-radius": "0 !important"
-            },
-            "body": {
-              "background-color": "black"
-            }
-          },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image &amp; Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\" style=\"width: 500px; height: 600px;\"> </div>\n\n[JS_CODE_0]\n\n     \n     \n        \n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                MetroMaps.org | The Internet's Atlas of Transit Maps\n            </p>\n        </div>\n    </div>\n</section>",
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
           "_JSplaceholders": [
-            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/Q1czd6p.jpg\"\n    }\n});\n    \n</script>"
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/Q1czd6p.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
           ],
           "_PHPplaceholders": [],
-          "_isUserblock": true,
-          "_cid": "uKwoZiWdl6",
-          "_anchor": "image04-x",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "custom-html-24"
         }
       ]
     },

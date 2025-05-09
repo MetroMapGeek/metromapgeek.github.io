@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Rethink+Sans:400,500,600,700,800,400i,500i,600i,700i,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rethink+Sans:400,500,600,700,800,400i,500i,600i,700i,800i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=K3N5w7"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=K3N5w7" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=Yifi9e"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=Yifi9e" type="text/css">
 
   
   
@@ -27,11 +27,10 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="image03 cid-uKwQGqubuE" id="image04-1n">
-    
+  <div id="custom-html-2h"><!-- Type valid HTML here -->
 
-    <div class="image-block m-auto">
-        <div id="openseadragon" style="width: 500px; height: 600px;"> </div>
+   <div class="image-block m-auto">
+        <div id="openseadragon"> </div>
 
 <script>
     
@@ -44,15 +43,17 @@ var viewer = OpenSeadragon({
         url: "https://i.imgur.com/U20VhYZ.jpg"
     }
 });
-    
-</script>
+    function resizeViewer() {
+    var viewerElement = document.getElementById("openseadragon");
+    viewerElement.style.width = window.innerWidth + "px";
+    viewerElement.style.height = window.innerHeight + "px";
+}
 
-     
-     
-        
-        
-    </div>
-</section>
+window.addEventListener("resize", resizeViewer);
+resizeViewer();
+
+    
+</script></div></div>
 
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>

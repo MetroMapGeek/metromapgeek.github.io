@@ -981,3 +981,10 @@ a {
   width: 100vw;
   height: 100vh;
 }
+#custom-html-35 {
+  /* Type valid CSS here */
+}
+#custom-html-35 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}

@@ -1382,6 +1382,7 @@ a {
 }
 #custom-html-4u {
   /* Type valid CSS here */
+  /* Prevent mobile tile reloads by stabilizing iframe rendering */
 }
 #custom-html-4u .fullscreen-map,
 #custom-html-4u .fullscreen-map iframe {
@@ -1397,4 +1398,9 @@ a {
 }
 #custom-html-4u .mbr-section {
   padding: 0 !important;
+}
+#custom-html-4u iframe {
+  image-rendering: auto !important;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }

@@ -1368,21 +1368,9 @@ a {
   width: 100vw;
   height: 100vh;
 }
-#custom-html-r {
-  /* Type valid CSS here */
-}
-#custom-html-r div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-r p {
-  font-size: 60px;
-  color: #777;
-}
 #custom-html-4u {
   /* Type valid CSS here */
-  /* Prevent mobile tile reloads by stabilizing iframe rendering */
+  /* Prevent mobile browsers from re-rendering the iframe constantly */
 }
 #custom-html-4u .fullscreen-map,
 #custom-html-4u .fullscreen-map iframe {
@@ -1399,8 +1387,21 @@ a {
 #custom-html-4u .mbr-section {
   padding: 0 !important;
 }
-#custom-html-4u iframe {
+#custom-html-4u iframe[src*="umap"] {
   image-rendering: auto !important;
   transform: translateZ(0);
   backface-visibility: hidden;
+  will-change: transform;
+}
+#custom-html-4w {
+  /* Type valid CSS here */
+}
+#custom-html-4w div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-4w p {
+  font-size: 60px;
+  color: #777;
 }

@@ -1,0 +1,3083 @@
+{
+  "settings": {
+    "name": "MetroMaps.org FULL i-FRAME-clone",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#bbbbbb",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Rethink Sans",
+        "display1Size": 4.6,
+        "display2Font": "Rethink Sans",
+        "display2Size": 3,
+        "display5Font": "Rethink Sans",
+        "display5Size": 2,
+        "display7Font": "Rethink Sans",
+        "display7Size": 1.2,
+        "display4Font": "Rethink Sans",
+        "display4Size": ".9",
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#fd0c0c",
+        "#b30e0e",
+        "#2f2f2f",
+        "#323232",
+        "#5d5d5d"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "6.0.1",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Rethink Sans', sans-serif",
+        "name": "Rethink Sans",
+        "url": "https://fonts.googleapis.com/css?family=Rethink+Sans:400,500,600,700,800,400i,500i,600i,700i,800i"
+      }
+    ],
+    "dppsSwitcher": false,
+    "spellingSwitch": false,
+    "site_lang": "en",
+    "favicon": "@PROJECT_PATH@/assets/images/metro-maps-favicon-02.png",
+    "mbrsiteDomain": "uqfdnxwkvd",
+    "imageResize": false,
+    "usedWebp": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "witsec-jquery": false,
+    "pwa-switcher": false,
+    "uniqCompNum": 177,
+    "versionPublish": "6.0.1",
+    "screenshot": "screenshot.png",
+    "mcSmartCart": {
+      "currency": "USD"
+    }
+  },
+  "pages": {
+    "nyc-vingelli.html": {
+      "settings": {
+        "main": false,
+        "title": "New York: 2025 Vingelli Subway Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "93"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/YOa630j.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-1z"
+        }
+      ]
+    },
+    "map-viewer.html": {
+      "settings": {
+        "title": "Map Viewer Page",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "2"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-20"
+        }
+      ]
+    },
+    "madrid.html": {
+      "settings": {
+        "title": "Madrid Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "89"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/kbbNleo.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-23"
+        }
+      ]
+    },
+    "venice-regional.html": {
+      "settings": {
+        "title": "Venice: Regional Transit Diagram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "99"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/iOXI3BX.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-21"
+        }
+      ]
+    },
+    "venice-waterborne.html": {
+      "settings": {
+        "title": "Venice: Vaporetti Transit Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "98"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/NKKPvIX.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-22"
+        }
+      ]
+    },
+    "milan-ditsek.html": {
+      "settings": {
+        "title": "Milan Diagram by Theo Ditsek",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "92"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/6mdC6ST.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-32"
+        }
+      ]
+    },
+    "milan-metro.html": {
+      "settings": {
+        "title": "Milan Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "91"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/T5SqmNN.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-31"
+        }
+      ]
+    },
+    "roma-tram.html": {
+      "settings": {
+        "title": "Roma: Tram Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "97"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/2A18d3F.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-34"
+        }
+      ]
+    },
+    "roma-metro.html": {
+      "settings": {
+        "title": "Roma: Metro &amp; Regional Trains",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "96"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/9RkiRLH.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-33"
+        }
+      ]
+    },
+    "durban-rail.html": {
+      "settings": {
+        "title": "Durban Commuter Rail Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "88"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/CHoE6FZ.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-30"
+        }
+      ]
+    },
+    "cape-town.html": {
+      "settings": {
+        "title": "Cape Town Rail Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "87"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/6JDWSzR.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2z"
+        }
+      ]
+    },
+    "madrid-turistico.html": {
+      "settings": {
+        "title": "Madrid Turistico Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "90"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/Q1czd6p.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-24"
+        }
+      ]
+    },
+    "casablanca.html": {
+      "settings": {
+        "title": "Casablanca Transit Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "85"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/YPN5tpe.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2x"
+        }
+      ]
+    },
+    "casablanca-2.html": {
+      "settings": {
+        "title": "Casablanca Transit Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "86"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/fq1s9x5.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2y"
+        }
+      ]
+    },
+    "cairo.html": {
+      "settings": {
+        "title": "Cairo Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "84"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/fGx1LQ2.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2w"
+        }
+      ]
+    },
+    "sapporo-streetcar.html": {
+      "settings": {
+        "title": "Sapporo Streetcar",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "83"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/OSEOo1F.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2v"
+        }
+      ]
+    },
+    "sapporo-subway.html": {
+      "settings": {
+        "title": "Sapporo Subway",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "82"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/IuSL2VA.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2u"
+        }
+      ]
+    },
+    "mumbai-kk.html": {
+      "settings": {
+        "title": "Mumbai Metro by Kishore Khaware",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "79"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/t7Dypsz.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2r"
+        }
+      ]
+    },
+    "mumbai-mrane.html": {
+      "settings": {
+        "title": "Mumbai Transit Map by MRane.com",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "78"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/v8FNfql.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2q"
+        }
+      ]
+    },
+    "mumbai-locals.html": {
+      "settings": {
+        "title": "Mumbai Locals Transit Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "77"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/GrSxtwx.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2p"
+        }
+      ]
+    },
+    "beijing.html": {
+      "settings": {
+        "title": "Beijing Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "76"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/ngEWCjI.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2o"
+        }
+      ]
+    },
+    "bangkok.html": {
+      "settings": {
+        "title": "Bangkok Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "75"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/2yefq94.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2n"
+        }
+      ]
+    },
+    "shanghai.html": {
+      "settings": {
+        "title": "Shanghai Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "74"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/mVlx2cH.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2m"
+        }
+      ]
+    },
+    "hong-kong.html": {
+      "settings": {
+        "title": "Hong Kong Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "73"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/Xj9GvJf.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2l"
+        }
+      ]
+    },
+    "seoul.html": {
+      "settings": {
+        "title": "Seoul Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "72"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/DpxcxhM.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2k"
+        }
+      ]
+    },
+    "osaka.html": {
+      "settings": {
+        "title": "Osaka Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "71"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/LJNz0WT.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2j"
+        }
+      ]
+    },
+    "tokyo-regional.html": {
+      "settings": {
+        "title": "Tokyo Regional Rail Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "70"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/9iqX4EB.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2i"
+        }
+      ]
+    },
+    "tokyo-metro.html": {
+      "settings": {
+        "title": "Tokyo Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "69"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/U20VhYZ.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2h"
+        }
+      ]
+    },
+    "wellington-transit.html": {
+      "settings": {
+        "title": "Wellington Metro Transit",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "68"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/PXFSB7C.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2g"
+        }
+      ]
+    },
+    "wellington-diagram.html": {
+      "settings": {
+        "title": "Wellington Rail Transit Diagram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "67"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/ReSqiPX.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2f"
+        }
+      ]
+    },
+    "auckland-ferry.html": {
+      "settings": {
+        "title": "Auckland Ferry Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "66"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/oJOOJVL.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2e"
+        }
+      ]
+    },
+    "auckland-transit.html": {
+      "settings": {
+        "title": "Auckland Transit",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "65"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/vE4nfIW.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2d"
+        }
+      ]
+    },
+    "perth.html": {
+      "settings": {
+        "title": "Perth System Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "64"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/MjyJj7q.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2c"
+        }
+      ]
+    },
+    "sydney-ferries.html": {
+      "settings": {
+        "title": "Sydney Ferries Network",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "61"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/EabVD1q.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-28"
+        }
+      ]
+    },
+    "brisbane-rail.html": {
+      "settings": {
+        "title": "Brisbane Rail Network",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "62"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/oC2SLAx.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-29"
+        }
+      ]
+    },
+    "brisbane-ferry.html": {
+      "settings": {
+        "title": "Brisbane Ferry Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "63"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/QZyLacf.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2a"
+        }
+      ]
+    },
+    "sydney-rail.html": {
+      "settings": {
+        "title": "Sydney Rail Network",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "58"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/MlbwjSS.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-25"
+        }
+      ]
+    },
+    "melbourne-rail.html": {
+      "settings": {
+        "title": "Melbourne Rail Network Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "59"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/rKFFfqI.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-26"
+        }
+      ]
+    },
+    "melbourne-tram.html": {
+      "settings": {
+        "title": "Melbourne Tram Network",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "60"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/NCdTIZJ.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-27"
+        }
+      ]
+    },
+    "delhi-metro-diagram.html": {
+      "settings": {
+        "title": "Delhi Metro Diagram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "80"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/3ri2tti.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2s"
+        }
+      ]
+    },
+    "delhi-metro-network.html": {
+      "settings": {
+        "title": "Delhi Metro Network",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "81"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/HtY0InR.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-2t"
+        }
+      ]
+    },
+    "vancouver.html": {
+      "settings": {
+        "title": "Vancouver Metro Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "57"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/cdltNTZ.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-35"
+        }
+      ]
+    },
+    "boston-t.html": {
+      "settings": {
+        "title": "Boston Transit",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "56"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/0dKttCw.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-36"
+        }
+      ]
+    },
+    "dc-metro.html": {
+      "settings": {
+        "title": "Washington DC Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "55"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/aTFLllx.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-37"
+        }
+      ]
+    },
+    "septa.html": {
+      "settings": {
+        "title": "Philadelphia SEPTA",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "54"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/PNksixs.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-38"
+        }
+      ]
+    },
+    "chicago-cta.html": {
+      "settings": {
+        "title": "Chicago Elevated Trains | CTA",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "51"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/Ux5zkJe.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-39"
+        }
+      ]
+    },
+    "ny-subway-classic.html": {
+      "settings": {
+        "title": "New York City Subway Classic",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "94"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/dP4iXpC.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3b"
+        }
+      ]
+    },
+    "london-tube-standard.html": {
+      "settings": {
+        "title": "London Tube Standard",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "46"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/ZgA2pyy.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3c"
+        }
+      ]
+    },
+    "amsterdam.html": {
+      "settings": {
+        "title": "Amsterdam",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "44"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/Ql3gFFP.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3e"
+        }
+      ]
+    },
+    "paris-metro.html": {
+      "settings": {
+        "title": "Paris Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "42"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/sQovNCs.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3g"
+        }
+      ]
+    },
+    "moscow.html": {
+      "settings": {
+        "title": "Moscow Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "39"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/1DW93nf.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3h"
+        }
+      ]
+    },
+    "sf-bart.html": {
+      "settings": {
+        "title": "San Francisco B.A.R.T.",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "38"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/0dtcKeR.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3i"
+        }
+      ]
+    },
+    "sf-muni-metro.html": {
+      "settings": {
+        "title": "San Francisco MUNI",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "37"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/nZMbOYY.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3j"
+        }
+      ]
+    },
+    "la-metrolink.html": {
+      "settings": {
+        "title": "LA MetroLink",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "36"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/SISn9WO.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3k"
+        }
+      ]
+    },
+    "seattle-transit.html": {
+      "settings": {
+        "title": "Seattle Transit Diagram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "34"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/npUzPqj.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3m"
+        }
+      ]
+    },
+    "sound-transit.html": {
+      "settings": {
+        "title": "Sound Transit",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "33"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/hYS2zdH.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3n"
+        }
+      ]
+    },
+    "portland-tri-met.html": {
+      "settings": {
+        "title": "Portland Tri-Met",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "32"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/fWYZhOg.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3o"
+        }
+      ]
+    },
+    "slc-rail.html": {
+      "settings": {
+        "title": "Salt Lake City | Utah Rail",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "31"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/3oc0KNz.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3p"
+        }
+      ]
+    },
+    "dallas-dart.html": {
+      "settings": {
+        "title": "Dallas Rapid Transit",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "30"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/kDQLVDy.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3q"
+        }
+      ]
+    },
+    "new-orleans-streetcars.html": {
+      "settings": {
+        "title": "New Orleans Streetcar Routes",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "49"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/k6A6fZT.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3r"
+        }
+      ]
+    },
+    "mn-metro.html": {
+      "settings": {
+        "title": "Minneapolis Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "29"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/svIZYbV.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3s"
+        }
+      ]
+    },
+    "chicago-rail.html": {
+      "settings": {
+        "title": "Chicago Rail Connections",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "52"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/QSWHv7J.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3t"
+        }
+      ]
+    },
+    "toronto-rail-streetcar.html": {
+      "settings": {
+        "title": "Toronto Rail &amp; Streetcar Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "28"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/2o1tyRR.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3u"
+        }
+      ]
+    },
+    "toronto-regional.html": {
+      "settings": {
+        "title": "Toronto Regional Trains",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "27"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/KT4utKa.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3v"
+        }
+      ]
+    },
+    "montreal-metro.html": {
+      "settings": {
+        "title": "Montreal Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "26"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/NTKU1ch.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3w"
+        }
+      ]
+    },
+    "new-york-mta-rail.html": {
+      "settings": {
+        "title": "New York MTA Railroads",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "95"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/s9w7Oxu.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3x"
+        }
+      ]
+    },
+    "chicago-metro-vs.html": {
+      "settings": {
+        "title": "Chicago Metro by Vagabond Studios",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "53"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/YYtdrhe.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3y"
+        }
+      ]
+    },
+    "la-metro-rail-busway.html": {
+      "settings": {
+        "title": "Los Angeles Metro Rail & Busway",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "35"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/jFI00FF.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3l"
+        }
+      ]
+    },
+    "new-orleans-streetcar-diagram.html": {
+      "settings": {
+        "title": "New Orleans Streetcar Diagram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "50"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/oGdaBlW.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3z"
+        }
+      ]
+    },
+    "krakow-tram.html": {
+      "settings": {
+        "title": "Krakow Tram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "25"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/BrTJZBk.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-40"
+        }
+      ]
+    },
+    "krakow-huberteu.html": {
+      "settings": {
+        "title": "Krakow by u/HubertEu",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "24"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/3mMLKkH.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-41"
+        }
+      ]
+    },
+    "stuttgart-innenstadt.html": {
+      "settings": {
+        "title": "Stuttgart Innenstadt",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "23"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/Ock6zay.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-42"
+        }
+      ]
+    },
+    "stuttgart-zone-map.html": {
+      "settings": {
+        "title": "Stuttgart Zone Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "22"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/QJpQIoC.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-43"
+        }
+      ]
+    },
+    "stuttgart-liniennetz.html": {
+      "settings": {
+        "title": "Stuttgart Liniennetz",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "21"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/mwPuxwY.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-44"
+        }
+      ]
+    },
+    "stuttgart-su.html": {
+      "settings": {
+        "title": "Stuttgart S+U (Former Official Map)",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "20"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/mPgjdfW.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-45"
+        }
+      ]
+    },
+    "berlin-tram.html": {
+      "settings": {
+        "title": "Berlin Tram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "18"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/1U4Eve0.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-46"
+        }
+      ]
+    },
+    "berlin-bahn.html": {
+      "settings": {
+        "title": "Berlin Bahn",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "17"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/aeJzpKe.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-47"
+        }
+      ]
+    },
+    "bruxelles-streetcar.html": {
+      "settings": {
+        "title": "Bruxelles Streetcar",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "16"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/6e2g8n0.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-48"
+        }
+      ]
+    },
+    "bruxelles-metro.html": {
+      "settings": {
+        "title": "Bruxelles Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "43"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/Kg7nClD.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-3f"
+        }
+      ]
+    },
+    "bruxelles-center-diagram.html": {
+      "settings": {
+        "title": "Bruxelles City Center Transit Diagram",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "15"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/DUEkXDq.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-49"
+        }
+      ]
+    },
+    "bruxelles-surrounds-transit.html": {
+      "settings": {
+        "title": "Bruxelles & Surrounds Transit",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "14"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/PNor9Nq.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4a"
+        }
+      ]
+    },
+    "paris-metromap-fr.html": {
+      "settings": {
+        "title": "Paris Metro by MetroMap.fr",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "13"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/ob7NvfP.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4b"
+        }
+      ]
+    },
+    "sao-paulo.html": {
+      "settings": {
+        "title": "Sao Paulo",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "12"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/5tNAnEQ.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4c"
+        }
+      ]
+    },
+    "santiago.html": {
+      "settings": {
+        "title": "Santiago",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "11"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/IxSkys3.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4d"
+        }
+      ]
+    },
+    "mexico-city.html": {
+      "settings": {
+        "title": "Mexico City",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "10"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/B4mzqu4.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4e"
+        }
+      ]
+    },
+    "buenos-aires-subte.html": {
+      "settings": {
+        "title": "Buenos Aires Subte",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "9"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/fif2wg2.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4f"
+        }
+      ]
+    },
+    "boston-commuter-rail.html": {
+      "settings": {
+        "title": "Boston Commuter Rail",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "8"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/0xaDm73.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4g"
+        }
+      ]
+    },
+    "berlin-zero-per-zero.html": {
+      "settings": {
+        "title": "Berlin by ZeroPerZero",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "19"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/CkpWzHJ.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4h"
+        }
+      ]
+    },
+    "london-key-bus-routes.html": {
+      "settings": {
+        "title": "London Key Bus Routes",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "47"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/KebFlGO.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4i"
+        }
+      ]
+    },
+    "london-jug-cerovic.html": {
+      "settings": {
+        "title": "London by Jug Cerovic",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "48"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/ykoiabP.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4j"
+        }
+      ]
+    },
+    "amsterdam-eric-hammink.html": {
+      "settings": {
+        "title": "Amsterdam by Eric Hammink",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "45"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/hLBLQqS.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4k"
+        }
+      ]
+    },
+    "moscow-river-transport.html": {
+      "settings": {
+        "title": "Moscow River Transport",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "40"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/A2eqIoD.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4l"
+        }
+      ]
+    },
+    "moscow-night-bus.html": {
+      "settings": {
+        "title": "Moscow Night Bus Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "41"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/wAMvsJ2.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4m"
+        }
+      ]
+    },
+    "barcelona.html": {
+      "settings": {
+        "title": "Barcelona: Xarxa de Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "6"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/gZ8NIWH.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4n"
+        }
+      ]
+    },
+    "lisbon.html": {
+      "settings": {
+        "title": "Lisbon: Metropolitano De Lisboa",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "7"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/vjHK3r7.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4o"
+        }
+      ]
+    },
+    "valencia.html": {
+      "settings": {
+        "title": "Valencia Metro",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "5"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/TBUm8FT.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4p"
+        }
+      ]
+    },
+    "lyon.html": {
+      "settings": {
+        "title": "Lyon: TCL Network Map",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "4"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/hECFmVR.jpg\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4q"
+        }
+      ]
+    },
+    "marseille-metro-tramway.html": {
+      "settings": {
+        "title": "Marseille: Metro & Tramway",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "3"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n   <div class=\"image-block m-auto\">\n        <div id=\"openseadragon\"> </div>\n\n[JS_CODE_0]</div>",
+          "_customCSS": "/* Type valid CSS here */\n\n#openseadragon {\n    width: 100vw;\n    height: 100vh;\n}\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\n    \n    \nvar viewer = OpenSeadragon({\n    id: \"openseadragon\",\n    prefixUrl: \"assets-openseadragon/images/\",\n    tileSources: {\n        type: \"image\",\n        url: \"https://i.imgur.com/55npJ63.png\"\n    }\n});\n    function resizeViewer() {\n    var viewerElement = document.getElementById(\"openseadragon\");\n    viewerElement.style.width = window.innerWidth + \"px\";\n    viewerElement.style.height = window.innerHeight + \"px\";\n}\n\nwindow.addEventListener(\"resize\", resizeViewer);\nresizeViewer();\n\n    \n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4r"
+        }
+      ]
+    },
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "MetroMaps.org",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "1",
+        "socialSharingUrl": ""
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<div class=\"fullscreen-map\">\n  <iframe src=\"https://umap.openstreetmap.fr/en/map/metromapsorg_1203972#2/0.0/-35.0\" allowfullscreen=\"\"></iframe>\n</div>\n\n<iframe style=\"width: 100%; height: 300px; border: 0;\" allowfullscreen=\"\" allow=\"geolocation\" src=\"//umap.openstreetmap.fr/en/map/metromapsorg_1203972?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true\"></iframe><p><a href=\"//umap.openstreetmap.fr/en/map/metromapsorg_1203972?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=true&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true\">See full screen</a></p>\n\n\n[JS_CODE_0]\n\n",
+          "_customCSS": "/* Type valid CSS here */\n\n.fullscreen-map, \n.fullscreen-map iframe {\n  width: 100%;\n  height: 100vh;   /* full viewport height */\n  margin: 0;\n  padding: 0;\n  border: none;\n}\n\n\n.fullscreen-map {\n  padding: 0 !important;\n}\n.mbr-section {\n  padding: 0 !important;\n}\n\n\n/* Prevent mobile browsers from re-rendering the iframe constantly */\niframe[src*=\"umap\"] {\n    image-rendering: auto !important;\n    transform: translateZ(0);\n    backface-visibility: hidden;\n    will-change: transform;\n}\n\n",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [
+            "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n    const iframe = document.querySelector('iframe[src*=\"umap\"]');\n    if (!iframe) return;\n\n    iframe.onload = function () {\n        try {\n            const mapWindow = iframe.contentWindow;\n            const L = mapWindow.L;\n\n            if (!L) return;\n\n            // Force high-res tiles and disable mobile downscaling\n            L.Browser.retina = true;\n\n            // Reduce tile reloads when panning/zooming\n            L.Map.mergeOptions({\n                fadeAnimation: false,\n                zoomAnimation: false,\n                markerZoomAnimation: false\n            });\n\n            // Make tile layers keep more tiles in memory\n            L.TileLayer.prototype.options.updateWhenIdle = true;\n            L.TileLayer.prototype.options.keepBuffer = 6;\n        } catch (err) {\n            console.warn(\"Could not access uMap iframe:\", err);\n        }\n    };\n});\n</script>"
+          ],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-4u"
+        }
+      ]
+    },
+    "mobile.html": {
+      "settings": {
+        "title": "MetroMaps Mobile Test",
+        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
+        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
+        "footer_custom": "<body style=\"background-color:#000000;\">",
+        "html_before": "",
+        "order": "1",
+        "socialSharingUrl": ""
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<style>\n/* Make the section and iframe truly full-screen */\n.fullscreen-map-wrapper {\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    margin: 0;\n    padding: 0;\n    z-index: 1;\n}\n\n/* Stabilize iframe rendering on mobile to prevent tile reloads */\n.fullscreen-map-wrapper iframe {\n    width: 100%;\n    height: 100%;\n    border: none;\n    image-rendering: auto !important;\n    transform: translateZ(0);\n    backface-visibility: hidden;\n    will-change: transform;\n}\n</style>\n\n<div class=\"fullscreen-map-wrapper\">\n    <iframe src=\"https://umap.openstreetmap.fr/en/map/metromapsorg_1203972#2/0.0/-35.0\" allowfullscreen=\"\" loading=\"lazy\">\n    </iframe>\n</div>\n\n[JS_CODE_0]\n",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "custom-html-4w",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n    const iframe = document.querySelector('.fullscreen-map-wrapper iframe');\n    if (!iframe) return;\n\n    iframe.onload = function () {\n        try {\n            const mapWindow = iframe.contentWindow;\n            const L = mapWindow.L;\n\n            if (!L) return;\n\n            // Force high-res tiles and disable mobile downscaling\n            L.Browser.retina = true;\n\n            // Reduce tile reloads when panning/zooming\n            L.Map.mergeOptions({\n                fadeAnimation: false,\n                zoomAnimation: false,\n                markerZoomAnimation: false\n            });\n\n            // Keep more tiles in memory to avoid reloads\n            L.TileLayer.prototype.options.updateWhenIdle = true;\n            L.TileLayer.prototype.options.keepBuffer = 6;\n\n        } catch (err) {\n            console.warn(\"Could not access uMap iframe:\", err);\n        }\n    };\n});\n</script>"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "MetroMaps.org FULL i-FRAME-clone",
+    "name": "MetroMaps.org 2026 UPDATE",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -55,7 +55,7 @@
     "spellingSwitch": false,
     "site_lang": "en",
     "favicon": "@PROJECT_PATH@/assets/images/metro-maps-favicon-02.png",
-    "mbrsiteDomain": "uqfdnxwkvd",
+    "mbrsiteDomain": "agsuqdmtik",
     "imageResize": false,
     "usedWebp": false,
     "cssOptimize": false,
@@ -3032,7 +3032,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<div class=\"fullscreen-map\">\n  <iframe src=\"https://umap.openstreetmap.fr/en/map/metromapsorg_1203972#2/0.0/-35.0\" allowfullscreen=\"\"></iframe>\n</div>\n\n<iframe style=\"width: 100%; height: 300px; border: 0;\" allowfullscreen=\"\" allow=\"geolocation\" src=\"//umap.openstreetmap.fr/en/map/metromapsorg_1203972?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true\"></iframe><p><a href=\"//umap.openstreetmap.fr/en/map/metromapsorg_1203972?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=true&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true\">See full screen</a></p>\n\n\n[JS_CODE_0]\n\n",
+          "_customHTML": "<!-- Type valid HTML here -->\n<div class=\"fullscreen-map\">\n  <iframe src=\"https://umap.openstreetmap.fr/en/map/metromapsorg_1203972#2/0.0/-35.0\" allowfullscreen=\"\"></iframe>\n</div>\n\n[JS_CODE_0]\n\n\n<iframe style=\"width: 100%; height: 300px; border: 0;\" allowfullscreen=\"\" allow=\"geolocation\" src=\"//umap.openstreetmap.fr/en/map/metromapsorg_1203972?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true\"></iframe><p><a href=\"//umap.openstreetmap.fr/en/map/metromapsorg_1203972?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=true&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true\">See full screen</a></p>\n\n\n[JS_CODE_1]\n\n",
           "_customCSS": "/* Type valid CSS here */\n\n.fullscreen-map, \n.fullscreen-map iframe {\n  width: 100%;\n  height: 100vh;   /* full viewport height */\n  margin: 0;\n  padding: 0;\n  border: none;\n}\n\n\n.fullscreen-map {\n  padding: 0 !important;\n}\n.mbr-section {\n  padding: 0 !important;\n}\n\n\n/* Prevent mobile browsers from re-rendering the iframe constantly */\niframe[src*=\"umap\"] {\n    image-rendering: auto !important;\n    transform: translateZ(0);\n    backface-visibility: hidden;\n    will-change: transform;\n}\n\n",
           "alias": "code-editor",
           "_tags": [
@@ -3041,41 +3041,12 @@
           "_name": "pro.custom-html",
           "_sourceTheme": "mobirise5",
           "_JSplaceholders": [
+            "<script>\n  (function() {\n    const version = 'v3'; // ← change this whenever you want to force reload\n    const stored = localStorage.getItem('site_version');\n    if (stored !== version) {\n      localStorage.setItem('site_version', version);\n      window.location.reload(true);\n    }\n  })();\n</script>",
             "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n    const iframe = document.querySelector('iframe[src*=\"umap\"]');\n    if (!iframe) return;\n\n    iframe.onload = function () {\n        try {\n            const mapWindow = iframe.contentWindow;\n            const L = mapWindow.L;\n\n            if (!L) return;\n\n            // Force high-res tiles and disable mobile downscaling\n            L.Browser.retina = true;\n\n            // Reduce tile reloads when panning/zooming\n            L.Map.mergeOptions({\n                fadeAnimation: false,\n                zoomAnimation: false,\n                markerZoomAnimation: false\n            });\n\n            // Make tile layers keep more tiles in memory\n            L.TileLayer.prototype.options.updateWhenIdle = true;\n            L.TileLayer.prototype.options.keepBuffer = 6;\n        } catch (err) {\n            console.warn(\"Could not access uMap iframe:\", err);\n        }\n    };\n});\n</script>"
           ],
           "_PHPplaceholders": [],
           "_params": {},
           "_anchor": "custom-html-4u"
-        }
-      ]
-    },
-    "mobile.html": {
-      "settings": {
-        "title": "MetroMaps Mobile Test",
-        "meta_descr": "MetroMaps.org | The Internet's Atlas of Transit Maps",
-        "header_custom": "<script src=\"assets-openseadragon/openseadragon.min.js\"></script>",
-        "footer_custom": "<body style=\"background-color:#000000;\">",
-        "html_before": "",
-        "order": "1",
-        "socialSharingUrl": ""
-      },
-      "components": [
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<style>\n/* Make the section and iframe truly full-screen */\n.fullscreen-map-wrapper {\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    margin: 0;\n    padding: 0;\n    z-index: 1;\n}\n\n/* Stabilize iframe rendering on mobile to prevent tile reloads */\n.fullscreen-map-wrapper iframe {\n    width: 100%;\n    height: 100%;\n    border: none;\n    image-rendering: auto !important;\n    transform: translateZ(0);\n    backface-visibility: hidden;\n    will-change: transform;\n}\n</style>\n\n<div class=\"fullscreen-map-wrapper\">\n    <iframe src=\"https://umap.openstreetmap.fr/en/map/metromapsorg_1203972#2/0.0/-35.0\" allowfullscreen=\"\" loading=\"lazy\">\n    </iframe>\n</div>\n\n[JS_CODE_0]\n",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "custom-html-4w",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n    const iframe = document.querySelector('.fullscreen-map-wrapper iframe');\n    if (!iframe) return;\n\n    iframe.onload = function () {\n        try {\n            const mapWindow = iframe.contentWindow;\n            const L = mapWindow.L;\n\n            if (!L) return;\n\n            // Force high-res tiles and disable mobile downscaling\n            L.Browser.retina = true;\n\n            // Reduce tile reloads when panning/zooming\n            L.Map.mergeOptions({\n                fadeAnimation: false,\n                zoomAnimation: false,\n                markerZoomAnimation: false\n            });\n\n            // Keep more tiles in memory to avoid reloads\n            L.TileLayer.prototype.options.updateWhenIdle = true;\n            L.TileLayer.prototype.options.keepBuffer = 6;\n\n        } catch (err) {\n            console.warn(\"Could not access uMap iframe:\", err);\n        }\n    };\n});\n</script>"
-          ]
         }
       ]
     }

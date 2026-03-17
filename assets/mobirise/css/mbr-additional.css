@@ -1393,15 +1393,3 @@ a {
   backface-visibility: hidden;
   will-change: transform;
 }
-#custom-html-4w {
-  /* Type valid CSS here */
-}
-#custom-html-4w div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-4w p {
-  font-size: 60px;
-  color: #777;
-}

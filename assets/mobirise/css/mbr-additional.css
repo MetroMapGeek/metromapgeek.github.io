@@ -1393,3 +1393,10 @@ a {
   backface-visibility: hidden;
   will-change: transform;
 }
+#custom-html-4x {
+  /* Type valid CSS here */
+}
+#custom-html-4x #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}

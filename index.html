@@ -16,9 +16,9 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
     <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Rethink+Sans:400,500,600,700,800,400i,500i,600i,700i,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rethink+Sans:400,500,600,700,800,400i,500i,600i,700i,800i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=MoewZV"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=MoewZV" type="text/css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=tE1LQ4"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=tE1LQ4" type="text/css">
 
   
   
@@ -27,47 +27,27 @@
 </head>
 <body>
   
-  <div id="custom-html-4u"><!-- Type valid HTML here -->
-<div class="fullscreen-map">
-  <iframe src="https://umap.openstreetmap.fr/en/map/metromapsorg_1203972#2/0.0/-35.0" allowfullscreen=""></iframe>
-</div>
+  <section data-bs-version="5.1" class="header9 cid-vew6b7qZW7 mbr-fullscreen" id="header9-67">
 
-<iframe style="width: 100%; height: 300px; border: 0;" allowfullscreen="" allow="geolocation" src="//umap.openstreetmap.fr/en/map/metromapsorg_1203972?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/en/map/metromapsorg_1203972?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">See full screen</a></p>
+    
 
+    
+    <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(255, 255, 255);"></div>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const iframe = document.querySelector('iframe[src*="umap"]');
-    if (!iframe) return;
-
-    iframe.onload = function () {
-        try {
-            const mapWindow = iframe.contentWindow;
-            const L = mapWindow.L;
-
-            if (!L) return;
-
-            // Force high-res tiles and disable mobile downscaling
-            L.Browser.retina = true;
-
-            // Reduce tile reloads when panning/zooming
-            L.Map.mergeOptions({
-                fadeAnimation: false,
-                zoomAnimation: false,
-                markerZoomAnimation: false
-            });
-
-            // Make tile layers keep more tiles in memory
-            L.TileLayer.prototype.options.updateWhenIdle = true;
-            L.TileLayer.prototype.options.keepBuffer = 6;
-        } catch (err) {
-            console.warn("Could not access uMap iframe:", err);
-        }
-    };
-});
-</script>
-
-</div>
+    <div class="text-center container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9">
+                <div class="image-wrap mb-4">
+                    <a href="https://umap.openstreetmap.fr/en/map/metromapsorg_1203972"><img src="assets/images/metro-maps-intro-6k.png" alt="MetroMaps.org home page intro with Transit Maps logo on top of a Vengelli style subway sign board"></a>
+                </div>
+                
+                <p class="mbr-text mbr-fonts-style display-4">
+                    A project by <a href="https://vagabondstudiosdesign.com" class="text-primary" target="_blank">VagabondStudiosDesign.com</a></p>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-black display-7" href="https://umap.openstreetmap.fr/en/map/metromapsorg_1203972">Explore The Map →</a></div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>

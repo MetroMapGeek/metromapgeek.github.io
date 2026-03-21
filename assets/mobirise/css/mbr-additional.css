@@ -2,7 +2,7 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'Rethink Sans', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-size: 4.6rem;
   line-height: 1.1;
 }
@@ -10,7 +10,7 @@ body {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Rethink Sans', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-size: 3rem;
   line-height: 1.1;
 }
@@ -18,7 +18,7 @@ body {
   font-size: 3.75rem;
 }
 .display-4 {
-  font-family: 'Rethink Sans', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-size: 0.9rem;
   line-height: 1.5;
 }
@@ -26,7 +26,7 @@ body {
   font-size: 1.125rem;
 }
 .display-5 {
-  font-family: 'Rethink Sans', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -34,7 +34,7 @@ body {
   font-size: 2.5rem;
 }
 .display-7 {
-  font-family: 'Rethink Sans', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -96,7 +96,7 @@ body {
   border-radius: 4px;
 }
 .bg-primary {
-  background-color: #bbbbbb !important;
+  background-color: #7c7c7c !important;
 }
 .bg-success {
   background-color: #40b0bf !important;
@@ -112,8 +112,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #bbbbbb !important;
-  border-color: #bbbbbb !important;
+  background-color: #7c7c7c !important;
+  border-color: #7c7c7c !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -122,15 +122,15 @@ body {
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff !important;
-  background-color: #909090 !important;
-  border-color: #909090 !important;
+  background-color: #515151 !important;
+  border-color: #515151 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #909090 !important;
-  border-color: #909090 !important;
+  background-color: #515151 !important;
+  border-color: #515151 !important;
 }
 .btn-secondary,
 .btn-secondary:active {
@@ -290,13 +290,13 @@ body {
 .btn-primary-outline:active {
   background-color: transparent !important;
   border-color: transparent;
-  color: #bbbbbb;
+  color: #7c7c7c;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
-  color: #909090 !important;
+  color: #515151 !important;
   background-color: transparent!important;
   border-color: transparent!important;
   box-shadow: none!important;
@@ -304,8 +304,8 @@ body {
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #bbbbbb !important;
-  border-color: #bbbbbb !important;
+  background-color: #7c7c7c !important;
+  border-color: #7c7c7c !important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
@@ -455,7 +455,7 @@ body {
   border-color: #fafafa !important;
 }
 .text-primary {
-  color: #bbbbbb !important;
+  color: #7c7c7c !important;
 }
 .text-secondary {
   color: #ff6666 !important;
@@ -481,7 +481,7 @@ body {
 a.text-primary:hover,
 a.text-primary:focus,
 a.text-primary.active {
-  color: #888888 !important;
+  color: #494949 !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus,
@@ -532,7 +532,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-position: 0px 1.2em;
 }
 .nav-tabs .nav-link.active {
-  color: #bbbbbb;
+  color: #7c7c7c;
 }
 .nav-tabs .nav-link:not(.active) {
   color: #232323;
@@ -550,8 +550,8 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-color: #ff9966;
 }
 .mbr-gallery-filter li.active .btn {
-  background-color: #bbbbbb;
-  border-color: #bbbbbb;
+  background-color: #7c7c7c;
+  border-color: #7c7c7c;
   color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
@@ -559,11 +559,11 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 a,
 a:hover {
-  color: #bbbbbb;
+  color: #7c7c7c;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #fbfbfb;
+  color: #bcbcbc;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -586,7 +586,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Rethink Sans', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-size: 0.9rem;
   line-height: 1.5;
   font-weight: 400;
@@ -597,10 +597,10 @@ a:hover {
 .form-control:hover,
 .form-control:focus {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
-  border-color: #bbbbbb !important;
+  border-color: #7c7c7c !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Rethink Sans', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-size: 0.9rem;
   line-height: 1.5;
   font-weight: 400;
@@ -609,19 +609,19 @@ a:hover {
   font-size: 1.125rem;
 }
 blockquote {
-  border-color: #bbbbbb;
+  border-color: #7c7c7c;
 }
 /* Forms */
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
-  background-color: #bbbbbb;
+  background-color: #7c7c7c;
   color: #ffffff;
 }
 .jq-number__spin {
   transition: 0.25s ease;
 }
 .jq-number__spin:hover {
-  border-color: #bbbbbb;
+  border-color: #7c7c7c;
 }
 .jq-selectbox .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:after,
@@ -633,14 +633,14 @@ blockquote {
 .jq-selectbox:hover .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:hover:after,
 .jq-number__spin.plus:hover:after {
-  border-top-color: #bbbbbb;
-  border-bottom-color: #bbbbbb;
+  border-top-color: #7c7c7c;
+  border-bottom-color: #7c7c7c;
 }
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  color: #000000 !important;
-  background-color: #bbbbbb !important;
+  color: #ffffff !important;
+  background-color: #7c7c7c !important;
   box-shadow: none !important;
 }
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
@@ -671,7 +671,7 @@ iframe.lazy-placeholder,
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' stroke='%23bbbbbb' %3e%3cg fill='none' fill-rule='evenodd'%3e%3cg transform='translate(16 16)' stroke-width='2'%3e%3ccircle stroke-opacity='.5' cx='16' cy='16' r='16'/%3e%3cpath d='M32 16c0-9.94-8.06-16-16-16'%3e%3canimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='1s' repeatCount='indefinite'/%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' stroke='%237c7c7c' %3e%3cg fill='none' fill-rule='evenodd'%3e%3cg transform='translate(16 16)' stroke-width='2'%3e%3ccircle stroke-opacity='.5' cx='16' cy='16' r='16'/%3e%3cpath d='M32 16c0-9.94-8.06-16-16-16'%3e%3canimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='1s' repeatCount='indefinite'/%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
 }
 section.lazy-placeholder:after {
   opacity: 0.5;
@@ -1368,30 +1368,30 @@ a {
   width: 100vw;
   height: 100vh;
 }
-#custom-html-4u {
-  /* Type valid CSS here */
-  /* Prevent mobile browsers from re-rendering the iframe constantly */
+.cid-vew6b7qZW7 {
+  background-image: url("../../../assets/images/subway-background.jpg");
 }
-#custom-html-4u .fullscreen-map,
-#custom-html-4u .fullscreen-map iframe {
+.cid-vew6b7qZW7 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vew6b7qZW7 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
-  height: 100vh;
-  /* full viewport height */
-  margin: 0;
-  padding: 0;
-  border: none;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
-#custom-html-4u .fullscreen-map {
-  padding: 0 !important;
+.cid-vew6b7qZW7 .image-wrap img {
+  width: 100%;
 }
-#custom-html-4u .mbr-section {
-  padding: 0 !important;
-}
-#custom-html-4u iframe[src*="umap"] {
-  image-rendering: auto !important;
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  will-change: transform;
+@media (min-width: 992px) {
+  .cid-vew6b7qZW7 .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
 }
 #custom-html-4x {
   /* Type valid CSS here */
@@ -1399,4 +1399,330 @@ a {
 #custom-html-4x #openseadragon {
   width: 100vw;
   height: 100vh;
+}
+#custom-html-4y {
+  /* Type valid CSS here */
+}
+#custom-html-4y #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-4z {
+  /* Type valid CSS here */
+}
+#custom-html-4z #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-50 {
+  /* Type valid CSS here */
+}
+#custom-html-50 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-51 {
+  /* Type valid CSS here */
+}
+#custom-html-51 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-52 {
+  /* Type valid CSS here */
+}
+#custom-html-52 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-53 {
+  /* Type valid CSS here */
+}
+#custom-html-53 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-54 {
+  /* Type valid CSS here */
+}
+#custom-html-54 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-55 {
+  /* Type valid CSS here */
+}
+#custom-html-55 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-56 {
+  /* Type valid CSS here */
+}
+#custom-html-56 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-58 {
+  /* Type valid CSS here */
+}
+#custom-html-58 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-59 {
+  /* Type valid CSS here */
+}
+#custom-html-59 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-57 {
+  /* Type valid CSS here */
+}
+#custom-html-57 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5a {
+  /* Type valid CSS here */
+}
+#custom-html-5a #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5b {
+  /* Type valid CSS here */
+}
+#custom-html-5b #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5c {
+  /* Type valid CSS here */
+}
+#custom-html-5c #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5d {
+  /* Type valid CSS here */
+}
+#custom-html-5d #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5e {
+  /* Type valid CSS here */
+}
+#custom-html-5e #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5f {
+  /* Type valid CSS here */
+}
+#custom-html-5f #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5g {
+  /* Type valid CSS here */
+}
+#custom-html-5g #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5h {
+  /* Type valid CSS here */
+}
+#custom-html-5h #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5i {
+  /* Type valid CSS here */
+}
+#custom-html-5i #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5j {
+  /* Type valid CSS here */
+}
+#custom-html-5j #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5k {
+  /* Type valid CSS here */
+}
+#custom-html-5k #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5l {
+  /* Type valid CSS here */
+}
+#custom-html-5l #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5m {
+  /* Type valid CSS here */
+}
+#custom-html-5m #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5n {
+  /* Type valid CSS here */
+}
+#custom-html-5n #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5o {
+  /* Type valid CSS here */
+}
+#custom-html-5o #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5p {
+  /* Type valid CSS here */
+}
+#custom-html-5p #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5q {
+  /* Type valid CSS here */
+}
+#custom-html-5q #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5r {
+  /* Type valid CSS here */
+}
+#custom-html-5r #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5s {
+  /* Type valid CSS here */
+}
+#custom-html-5s #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5t {
+  /* Type valid CSS here */
+}
+#custom-html-5t #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5u {
+  /* Type valid CSS here */
+}
+#custom-html-5u #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5v {
+  /* Type valid CSS here */
+}
+#custom-html-5v #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5w {
+  /* Type valid CSS here */
+}
+#custom-html-5w #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5x {
+  /* Type valid CSS here */
+}
+#custom-html-5x #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5z {
+  /* Type valid CSS here */
+}
+#custom-html-5z #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-5y {
+  /* Type valid CSS here */
+}
+#custom-html-5y #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-60 {
+  /* Type valid CSS here */
+}
+#custom-html-60 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-61 {
+  /* Type valid CSS here */
+}
+#custom-html-61 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-62 {
+  /* Type valid CSS here */
+}
+#custom-html-62 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-63 {
+  /* Type valid CSS here */
+}
+#custom-html-63 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-64 {
+  /* Type valid CSS here */
+}
+#custom-html-64 #openseadragon {
+  width: 100vw;
+  height: 100vh;
+}
+#custom-html-68 {
+  /* Type valid CSS here */
+  /* Prevent mobile browsers from re-rendering the iframe constantly */
+}
+#custom-html-68 .fullscreen-map,
+#custom-html-68 .fullscreen-map iframe {
+  width: 100%;
+  height: 100vh;
+  /* full viewport height */
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+#custom-html-68 .fullscreen-map {
+  padding: 0 !important;
+}
+#custom-html-68 .mbr-section {
+  padding: 0 !important;
+}
+#custom-html-68 iframe[src*="umap"] {
+  image-rendering: auto !important;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
 }
